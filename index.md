@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+# Chengtai Cao
 
-You can use the [editor on GitHub](https://github.com/ddcreating/YurouDai.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Basic Information
+#### E-Mail: &nbsp;&nbsp; 447131988@qq.com&nbsp;&nbsp; cct447131988@gmail.com caochentai@gmail.com
+#### Google Scholar: &nbsp;&nbsp; [Chengtai Cao](https://scholar.google.com/citations?user=BbsnLQYAAAAJ&hl=zh-CN&oi=sra)
+#### DBLP: &nbsp;&nbsp; [Chengtai Cao](https://dblp.uni-trier.de/pid/241/6970.html)
+#### Github: &nbsp;&nbsp; [Chengtai Cao](https://github.com/ChengtaiCao)
+#### CSDN: &nbsp;&nbsp; [Chengtai Cao](https://blog.csdn.net/weixin_37589575)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Educational Background:
+#### 2014-2018: University of Electronic Science and Technology of China (UESTC)&nbsp;&nbsp;Bachelor
+#### 2018-2021: University of Electronic Science and Technology of China (UESTC)&nbsp;&nbsp;Master
 
-### Markdown
+### Reward
+#### 2021 Excellent Master Thesis of UESTC
+#### 2020 National Scholarship &nbsp;&nbsp; 2020 The First Prize Scholarship 
+#### 2019 National Scholarship &nbsp;&nbsp; 2019 The First Prize Scholarship 
+#### 2016 Excellent practice Team (Team Leader)
+#### 2014 Merit Student (Sichuan Province)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Internships or Work
+#### 2021.07 - Now &nbsp;&nbsp;Baidu(Shenzhen)&nbsp;&nbsp;Strategy Algorithm Engineer
+##### Exploit Python and Paddle to build the recommendation system in Ruliu
+#### 2018.02 - 2018.08&nbsp;&nbsp;SAP&nbsp;&nbsp;Front End Developer and QA
+##### Exploit Reac.js, Redux and Ant Design Pro to build a APP
+#### 2017.02 - 2017.06&nbsp;&nbsp;Chengdu Touch Technology Co., Ltd.&nbsp;&nbsp;Front End Developer
+##### Exploit HTML, CSS and JavaScript to build a website; WeChat Small Program
+#### 2016.07 - 2016.08&nbsp;&nbsp;Chengdu Huadi Co., Ltd.&nbsp;&nbsp;Team Leader
+##### Learn HTML, CSS, JavaScript and Java to finish a Website Demo
 
-```markdown
-Syntax highlighted code block
+### Research
+#### Research Interests
+##### Meta-learning, Few-shot Learning, Continual Learning, Graph, Image Emotion, etc.
+#### Publications
+##### [AAAI 2021] Overcoming Catastrophic Forgetting in Graph Neural Networks with Experience Replay (CCF A)
 
-# Header 1
-## Header 2
-### Header 3
+Accepatance rate: 1692/7911=21.4%   
 
-- Bulleted
-- List
+Fan Zhou, Chengtai Cao[Corresponding author]
 
-1. Numbered
-2. List
+##### [ESWA] Learning Meta-Knowledge for Few-shot Image Emotion Recognition (JCR Q2)
 
-**Bold** and _Italic_ and `Code` text
+Impact Factor: 5.452 
 
-[Link](url) and ![Image](src)
-```
+Fan Zhou, Chengtai Cao*, Ting Zhong, Ji Geng
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+##### [Infocom 2020] Fast Network Alignment via Graph Meta-Learning (CCF A)
 
-### Jekyll Themes
+Accepatance rate: 268/1354=19.8%  
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ddcreating/YurouDai.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Fan Zhou, Chengtai Cao*, Goce Trajcevski, Kunpeng Zhang, Ting Zhong, Ji Geng
 
-### Support or Contact
+##### [CIKM 2019] Meta-gnn: On few-shot node classification in graph meta-learning (CCF B)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Accepatance rate: 100/470=21.3%  
+
+Fan Zhou, Chengtai Cao*, Kunpeng Zhang, Goce Trajcevski, Ting Zhong, Ji Geng  
+
+##### [ICC 2020] Trajectory-User Linking via Graph Neural Networks (CCF C)   
+
+Accepatance rate: 758/1881=40.3%
+
+Fan Zhou, Shupei Chen, Jin Wu, Chengtai Cao*, Shengming Zhang  
