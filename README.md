@@ -1,18 +1,18 @@
 # YurouDai.github.io
 
 ## About me
-Hi, everyone! I'm Yurou Dai. I graduated from the University of Electronic Science and Technology of China (UESTC) with a master's degree in June 2022. After graduation, I have been working as a Research Assistant at City University of Hong Kong.
+Hi, everyone! I'm Yurou Dai. I graduated from the University of Electronic Science and Technology of China (UESTC) with a master's degree in June 2022. After graduation, I worked as a Research Assistant at the City University of Hong Kong.
 
 * Google Scholar: [Yurou Dai](https://scholar.google.com/citations?user=PdnyfV0AAAAJ&hl=zh-CN)
 * Github: [Yurou Dai](https://github.com/ddcreating)
 
 ## Research Interesting
-Machine Learning, Deep Learning, Data Mining, Social Network, and Autonomous Driving.   
+Machine Learning, Deep Learning, Data Mining, Social Networks, and Autonomous Driving.   
 Additionally, I'm very interested in psychology and sociology, hope I can find a way to help people live more happily.
 
 ## Publications
 ### Journal
-1. Zhou, F., **Dai, Y.**, Gao, Q., Wang, P., & Zhong, T. (2021). Self-supervised human mobility learning for next location prediction and trajectory classification. Knowledge-Based Systems, 228, 107214. 
+1. Zhou, F., **Dai, Y.**, Gao, Q., Wang, P., & Zhong, T. (2021). Self-supervised human mobility learning for next-location prediction and trajectory classification. Knowledge-Based Systems, 228, 107214. 
 2. **Dai, Y.**, Yang, Q., Zhang, F., & Zhou, F. (2021). Trajectory prediction model of social network users based on self-supervised learning. Journal of Computer Applications, 41(9), 2545. 
 3. Liu, L., **Dai, Y.**, Cao Y., & Zhou F. (2023) A Survey of User Geographic Location Prediction Based on Online Social Network. Journal of Computer Research and Development. 
 
@@ -45,7 +45,7 @@ of the point cloud map in autoware.universe, which is based on ROS (Robot Operat
 
 * Used the NDT or SLAM algorithm to build the map and locate the car's position. 
 * Used Vector Map Builder tool to label point cloud maps (PCD) to generate semantic maps (Lanelet2). 
-* Researched on object detection and lane detection using point cloud and visual data in the perception module.
+* Researched object and lane detection using point cloud and visual data in the perception module.
 
 ## Teaching Experience
 1. Teaching Assistant. Spring 2020. Theory and technology of network security (UESTC).
