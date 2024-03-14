@@ -35,7 +35,7 @@ Additionally, I'm very interested in psychology and sociology, hope I can find a
 2. University of Electronic Science and Technology of China (UESTC). Sept. 2019--Jun. 2022. Master.
 
 ## Work Experience
-1. City University of Hong Kong (CityU). Aug. 2022--Now. Research Assistant.
+1. City University of Hong Kong (CityU). Aug, 2022 -- Feb, 2024. Research Assistant.
 
 &emsp; project: "Autonomous Driving System based on Autoware.universe"
 
