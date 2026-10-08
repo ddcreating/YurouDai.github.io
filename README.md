@@ -9,7 +9,7 @@ Medical AI · Neuroimaging · Deep Learning
 
 I am a Ph.D. student in Computer Science at Lehigh University, advised by Prof. Lifang He. My research focuses on medical AI for neuroimaging, with an emphasis on learning-based fMRI preprocessing and brain representation learning. I study how image processing and representation choices affect downstream predictive modeling.
 
-My current work uses functional and structural MRI from datasets including ADHD-200, ABIDE, and the Human Connectome Project (HCP). Before joining Lehigh, I worked as a Research Assistant at City University of Hong Kong on autonomous driving systems. My earlier research explored self-supervised learning for human mobility and trajectory analysis.
+My current work uses functional and structural MRI from datasets including ADHD-200 and ABIDE. Before joining Lehigh, I worked as a Research Assistant at City University of Hong Kong on autonomous driving systems. My earlier research explored self-supervised learning for human mobility and trajectory analysis.
 
 I am interested in industry research and applied machine learning internships, particularly in medical imaging, AI for healthcare, and computer vision. I enjoy translating research ideas into practical, reproducible software.
 
@@ -25,30 +25,13 @@ Outside research, I enjoy photography, walking, hiking, and spending time in nat
 
 ## Projects
 
-The first three entries describe related components of my ongoing doctoral research.
-
-### Learning-Based fMRI Preprocessing and Analysis
+### End-to-End Learning for fMRI Preprocessing and Analysis
 
 Ongoing research, Lehigh University
 
-- Developing a framework that connects learnable preprocessing modules with downstream fMRI classification, using structural MRI for anatomical reference where appropriate.
+- Developing an end-to-end learning framework that connects fMRI preprocessing with downstream classification on ADHD-200 and ABIDE.
 - Building training and data-processing workflows for 4D fMRI and comparing conventional and learning-based preprocessing approaches, including fMRIPrep, BrainSuite, and DeepPrep.
-- Investigating brain extraction, motion correction, and EPI-to-T1 and T1-to-template registration, with attention to both image quality and downstream utility.
-
-### Neuroimaging Classification on ADHD-200 and ABIDE
-
-Ongoing research, Lehigh University
-
-- Developing and evaluating CNN-based classification workflows and exploring functional-connectivity representations for graph-based analysis.
-- Preparing neuroimaging data, inspecting preprocessing quality, and studying the effects of atlas-based parcellation and spatial normalization on model inputs.
-- Using subject-level cross-validation to assess classification performance while keeping each participant within a single split.
-
-### Brain Graph Learning with HCP fMRI
-
-Ongoing research, Lehigh University
-
-- Constructing brain graphs from regional fMRI time series and functional connectivity.
-- Evaluating graph neural network baselines, including Chebyshev graph convolutions and graph attention, for subject-level prediction using resting-state fMRI.
+- Investigating brain extraction, motion correction, and image registration, and evaluating how preprocessing and atlas-based parcellation affect CNN- and GNN-based classification.
 
 ### Self-Supervised Human Mobility Learning
 
