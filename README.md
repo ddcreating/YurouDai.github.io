@@ -1,74 +1,127 @@
-# YurouDai.github.io
+# Yurou (Ronia) Dai | 代雨柔
 
-## About me
-Hi, everyone! I'm Yurou Dai. I graduated from the University of Electronic Science and Technology of China (UESTC) with a master's degree in June 2022. After graduation, I worked as a Research Assistant at the City University of Hong Kong.
+Ph.D. Student in Computer Science, Lehigh University  
+Medical AI · Neuroimaging · Deep Learning
 
-* Google Scholar: [Yurou Dai](https://scholar.google.com/citations?user=PdnyfV0AAAAJ&hl=zh-CN)
-* Github: [Yurou Dai](https://github.com/ddcreating)
+[Homepage](https://ddcreating.github.io/YurouDai.github.io/) · [Google Scholar](https://scholar.google.com/citations?user=PdnyfV0AAAAJ&hl=en) · [GitHub](https://github.com/ddcreating) · [Email](mailto:yrd224@lehigh.edu)
 
-## Research Interesting
-Machine Learning, Deep Learning, Data Mining, Social Networks, and Autonomous Driving.   
-Additionally, I'm very interested in psychology and sociology, hope I can find a way to help people live more happily.
+## About
 
-## Publications
-### Journal
-1. Zhou, F., **Dai, Y.**, Gao, Q., Wang, P., & Zhong, T. (2021). Self-supervised human mobility learning for next-location prediction and trajectory classification. Knowledge-Based Systems, 228, 107214. 
-2. **Dai, Y.**, Yang, Q., Zhang, F., & Zhou, F. (2021). Trajectory prediction model of social network users based on self-supervised learning. Journal of Computer Applications, 41(9), 2545. 
-3. Liu, L., **Dai, Y.**, Cao Y., & Zhou F. (2023) A Survey of User Geographic Location Prediction Based on Online Social Network. Journal of Computer Research and Development. 
+I am a Ph.D. student in Computer Science at Lehigh University, advised by Prof. Lifang He. My research focuses on medical AI for neuroimaging, with an emphasis on learning-based fMRI preprocessing and brain representation learning. I study how image processing and representation choices affect downstream predictive modeling.
 
-### Pre-print
-1. Cao, C., Zhou, F., **Dai, Y.**, & Wang, J. (2022). A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability. arXiv preprint arXiv:2212.10888.
+My current work uses functional and structural MRI from datasets including ADHD-200, ABIDE, and the Human Connectome Project (HCP). Before joining Lehigh, I worked as a Research Assistant at City University of Hong Kong on autonomous driving systems. My earlier research explored self-supervised learning for human mobility and trajectory analysis.
 
-### Thesis
-#### Master
-1. **Yurou Dai**. Human trajectory analysis based on self-supervised learning. 2022. School of Information and Software Engineering, University of Electronic Science and Technology of China (UESTC).
+I am interested in industry research and applied machine learning internships, particularly in medical imaging, AI for healthcare, and computer vision. I enjoy translating research ideas into practical, reproducible software.
 
-## Patent
-1. Construction and prediction method of long-tail cascade prevalence prediction model based on decoupling backbone network and regressor.
-2. A social network user trajectory analysis method based on self-supervised learning.
+Outside research, I enjoy photography, walking, hiking, and spending time in nature.
 
-## Computer Software Copyright
-1. A Intellectual clearance game implemented in C.
+## Research
+
+- **Learning-based neuroimaging pipelines.** Integrating brain extraction, motion correction, registration, and downstream analysis into trainable workflows for fMRI.
+
+- **Brain representation learning.** Studying convolutional and graph neural networks for MRI analysis, including representations derived from regional time series and functional connectivity.
+
+- **Evaluation of medical AI.** Examining how preprocessing, anatomical alignment, and brain parcellation affect predictive performance and computational efficiency.
+
+## Projects
+
+The first three entries describe related components of my ongoing doctoral research.
+
+### Learning-Based fMRI Preprocessing and Analysis
+
+Ongoing research, Lehigh University
+
+- Developing a framework that connects learnable preprocessing modules with downstream fMRI classification, using structural MRI for anatomical reference where appropriate.
+- Building training and data-processing workflows for 4D fMRI and comparing conventional and learning-based preprocessing approaches, including fMRIPrep, BrainSuite, and DeepPrep.
+- Investigating brain extraction, motion correction, and EPI-to-T1 and T1-to-template registration, with attention to both image quality and downstream utility.
+
+### Neuroimaging Classification on ADHD-200 and ABIDE
+
+Ongoing research, Lehigh University
+
+- Developing and evaluating CNN-based classification workflows and exploring functional-connectivity representations for graph-based analysis.
+- Preparing neuroimaging data, inspecting preprocessing quality, and studying the effects of atlas-based parcellation and spatial normalization on model inputs.
+- Using subject-level cross-validation to assess classification performance while keeping each participant within a single split.
+
+### Brain Graph Learning with HCP fMRI
+
+Ongoing research, Lehigh University
+
+- Constructing brain graphs from regional fMRI time series and functional connectivity.
+- Evaluating graph neural network baselines, including Chebyshev graph convolutions and graph attention, for subject-level prediction using resting-state fMRI.
+
+### Self-Supervised Human Mobility Learning
+
+June 2020 – June 2022, UESTC
+
+- Developed and evaluated self-supervised approaches to next-location prediction and trajectory classification.
+- Explored spatiotemporal data augmentation and contrastive learning to capture patterns in human mobility.
+
+## Selected Publications
+
+1. Liao, Y., Keung, J., Zhang, J., **Dai, Y.**, & Liu, S. (2025). Evaluate Inference Attacks: Attack and Defense against 2D Semantic Segmentation Models. *ACM Transactions on Autonomous and Adaptive Systems*.
+2. Liao, Y., Zhang, J., Keung, J., Xiao, Y., & **Dai, Y.** (2025). Advancing autonomous driving system testing: Demands, challenges, and future directions. *Information and Software Technology*, 107859.
+3. Cao, C., Zhou, F., **Dai, Y.**, Wang, J., & Zhang, K. A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability. *ACM Computing Surveys*, 57(2), Article 37, 1–38. Published online in 2024; issue dated February 2025. [DOI](https://doi.org/10.1145/3696206).
+4. Liu, L., **Dai, Y.**, Cao, Y., & Zhou, F. (2024). Survey of User Geographic Location Prediction Based on Online Social Network. *Journal of Computer Research and Development*, 61(2), 385–412.
+5. Zhou, F., **Dai, Y.**, Gao, Q., Wang, P., & Zhong, T. (2021). Self-supervised human mobility learning for next-location prediction and trajectory classification. *Knowledge-Based Systems*, 228, 107214.
+6. **Dai, Y.**, Yang, Q., Zhang, F., & Zhou, F. (2021). Trajectory prediction model of social network users based on self-supervised learning. *Journal of Computer Applications*, 41(9), 2545.
+
+[Full publication list on Google Scholar](https://scholar.google.com/citations?user=PdnyfV0AAAAJ&hl=en).
 
 ## Education
-1. Chongqing Normal University (CQNU). Sept. 2015--Jun. 2019. Bachelor.
-2. University of Electronic Science and Technology of China (UESTC). Sept. 2019--Jun. 2022. Master.
 
-## Work Experience
-1. City University of Hong Kong (CityU). Aug, 2022 -- Feb, 2024. Research Assistant.
+### Lehigh University
 
-&emsp; project: "Autonomous Driving System based on Autoware.universe"
+Ph.D. in Computer Science, August 2024 – Present
 
-&emsp; Automatic driving consists of four modules, namely Perception, Localization, Planning and Control. 
-I am mainly responsible for the mapping algorithm in the Localization module and the semantic labeling 
-of the point cloud map in autoware.universe, which is based on ROS (Robot Operating System). 
+Department of Computer Science and Engineering. Advisor: Prof. Lifang He.
 
-* Used the NDT or SLAM algorithm to build the map and locate the car's position. 
-* Used Vector Map Builder tool to label point cloud maps (PCD) to generate semantic maps (Lanelet2). 
-* Researched object and lane detection using point cloud and visual data in the perception module.
+### University of Electronic Science and Technology of China
 
-## Teaching Experience
-1. Teaching Assistant. Spring 2020. Theory and technology of network security (UESTC).
+Master of Software Engineering, September 2019 – June 2022
 
-## Project Experience
-1. Aircraft trajectory data augmentation and prediction. Nov. 2020 – Jun. 2021     
-2. Candidate detection system based on face recognition (Group leader 1/3). Sept. 2018  –  Apr. 2019
-3. A file cloud storage system (Group leader 1/3). Oct. 2017 - May. 2018
+School of Information and Software Engineering. Advisor: Prof. Fan Zhou.
 
-## Distinction
-|  Year  |  Award  |  Issuer  |
-|  ----  | ----  | ----  |
-| 2022 | Provincial Outstanding Graduate | Education Department of Sichuan |
-| 2021 | National Scholarship | Ministry of Education of PRC |
-| 2021 | First-Prize Scholarship for Master Students | UESTC |
-| 2021 | HuiDing Technology Scholarship | Goodix |
-| 2021 | Excellent Graduate Student (Master Program) | UESTC |
-| 2020 | Excellent Teaching Assistant | UESTC |
-| 2016-2017 | National Encouragement Scholarship x 2 | CQNU |
-| 2016-2017 | Comprehensive First-Prize scholarship x 3 | CQNU |
+### Chongqing Normal University
+
+Bachelor of Software Engineering, September 2015 – June 2019
+
+School of Computer and Information Science.
+
+## Experience
+
+### Doctoral Research, Lehigh University
+
+November 2024 – Present
+
+- Conducting research on end-to-end fMRI preprocessing and analysis under the supervision of Prof. Lifang He.
+- Developing model and data-processing components, running comparative experiments, and implementing distributed training workflows for neuroimaging research.
+
+### Research Assistant, City University of Hong Kong
+
+August 2022 – February 2024
+
+- Contributed to localization and mapping in an autonomous driving system built on Autoware.universe and ROS, using LiDAR data and NDT/SLAM methods.
+- Processed point-cloud maps and generated Lanelet2 semantic maps using Vector Map Builder.
+- Developed a real-time surround-view system with four fisheye cameras using PyQt and OpenCV.
+
+### Teaching Assistant, University of Electronic Science and Technology of China
+
+Spring 2020
+
+- Supported the course Theory and Technology of Network Security.
+
+## Selected Honors
+
+- Provincial Outstanding Graduate, Education Department of Sichuan, 2022.
+- National Scholarship, Ministry of Education of China, 2021.
+- Excellent Teaching Assistant, UESTC, 2020.
 
 ## Contact
-### E-mail
-* Gmail： yurou97108@gmail.com
-* 网易邮箱： yurou97108@163.com
 
+Email: [yrd224@lehigh.edu](mailto:yrd224@lehigh.edu)  
+Location: Bethlehem, Pennsylvania, USA
+
+## Website
+
+This repository contains my personal academic homepage. The site uses the existing jemdoc stylesheet and a single `index.html` page.

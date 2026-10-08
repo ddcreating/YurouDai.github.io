@@ -1,195 +1,108 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Yurou (Ronia) Dai, Ph.D. student at Lehigh University researching medical AI, neuroimaging, fMRI preprocessing, and brain representation learning." />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" />
-<link rel="bookmark" href="favicon.ico" type="image/x-icon"　/>
-<title>Dai, Yurou (代雨柔)</title>
+<title>Yurou (Ronia) Dai | Lehigh University</title>
 </head>
 <body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
+<table id="tlayout" aria-label="Page layout"><tr>
 <td id="layout-menu">
 <div class="menu-category">Menu</div>
-<div class="menu-item"><a href="index.html" class="current">Home</a></div>
-<div class="menu-item"><a href="https://scholar.google.com/citations?user=PdnyfV0AAAAJ&hl=zh-CN">Google Scholar</a></div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="#about">About</a></div>
+<div class="menu-item"><a href="#research">Research</a></div>
+<div class="menu-item"><a href="#projects">Projects</a></div>
+<div class="menu-item"><a href="#publications">Publications</a></div>
+<div class="menu-item"><a href="#education">Education</a></div>
+<div class="menu-item"><a href="#experience">Experience</a></div>
+<div class="menu-item"><a href="https://scholar.google.com/citations?user=PdnyfV0AAAAJ&amp;hl=en">Google Scholar</a></div>
 <div class="menu-item"><a href="https://github.com/ddcreating">GitHub</a></div>
-<!--<div class="menu-item"><a href="https://www.researchgate.net/profile/Xiuze-Zhou">ResearchGate</a></div>-->
 </td>
 <td id="layout-content">
-<div id="toptitle">
-<h1>Yurou (Ronia), Dai (代雨柔) </h1>
-</div>
-<table class="imgtable"><tr><td>
-<a href="https://ddcreating.github.io/YurouDai.github.io/"><img src="photos/bio.PNG" alt="alt text" width="131px" height="160px" /></a>&nbsp;</td>
-<td align="left"><p><b>Research Assistant, </b> <br />
-Department of Computer Science, City University of Hong Kong. <br />
-Hong Kong, China <br /> 
-E-mail: <a href="mailto:yurou97108@gmail.com">yurou97108@gmail.com</a></p>
+<div id="toptitle"><h1>Yurou (Ronia) Dai (代雨柔)</h1></div>
+<table class="imgtable"><tr><td><img src="photos/bio.PNG" alt="Portrait of Yurou Dai" width="131" height="160" /></td><td><p><strong>Ph.D. Student in Computer Science</strong></p><p>Department of Computer Science and Engineering<br />Lehigh University<br />Bethlehem, Pennsylvania, USA<br />Email: <a href="mailto:yrd224@lehigh.edu">yrd224@lehigh.edu</a></p></td></tr></table>
+<!-- Restore a visible CV link after replacing CV_Yurou.pdf with the updated CV. -->
+<h2 id="about">About</h2>
+<p>I am a Ph.D. student in Computer Science at Lehigh University, advised by Prof. Lifang He. My research focuses on medical AI for neuroimaging, with an emphasis on learning-based fMRI preprocessing and brain representation learning. I study how image processing and representation choices affect downstream predictive modeling.</p>
+<p>My current work uses functional and structural MRI from datasets including ADHD-200, ABIDE, and the Human Connectome Project (HCP). Before joining Lehigh, I worked as a Research Assistant at City University of Hong Kong on autonomous driving systems. My earlier research explored self-supervised learning for human mobility and trajectory analysis.</p>
+<p>I am interested in industry research and applied machine learning internships, particularly in medical imaging, AI for healthcare, and computer vision. I enjoy translating research ideas into practical, reproducible software.</p>
+<p>Outside research, I enjoy photography, walking, hiking, and spending time in nature.</p>
+<h2 id="research">Research</h2>
+<ul>
+<li><p><strong>Learning-based neuroimaging pipelines.</strong> Integrating brain extraction, motion correction, registration, and downstream analysis into trainable workflows for fMRI.</p></li>
+<li><p><strong>Brain representation learning.</strong> Studying convolutional and graph neural networks for MRI analysis, including representations derived from regional time series and functional connectivity.</p></li>
+<li><p><strong>Evaluation of medical AI.</strong> Examining how preprocessing, anatomical alignment, and brain parcellation affect predictive performance and computational efficiency.</p></li>
+</ul>
+<h2 id="projects">Projects</h2>
+<p>The first three entries describe related components of my ongoing doctoral research.</p>
+<h3>Learning-Based fMRI Preprocessing and Analysis</h3>
+<p>Ongoing research, Lehigh University</p>
+<ul>
+<li><p>Developing a framework that connects learnable preprocessing modules with downstream fMRI classification, using structural MRI for anatomical reference where appropriate.</p></li>
+<li><p>Building training and data-processing workflows for 4D fMRI and comparing conventional and learning-based preprocessing approaches, including fMRIPrep, BrainSuite, and DeepPrep.</p></li>
+<li><p>Investigating brain extraction, motion correction, and EPI-to-T1 and T1-to-template registration, with attention to both image quality and downstream utility.</p></li>
+</ul>
+<h3>Neuroimaging Classification on ADHD-200 and ABIDE</h3>
+<p>Ongoing research, Lehigh University</p>
+<ul>
+<li><p>Developing and evaluating CNN-based classification workflows and exploring functional-connectivity representations for graph-based analysis.</p></li>
+<li><p>Preparing neuroimaging data, inspecting preprocessing quality, and studying the effects of atlas-based parcellation and spatial normalization on model inputs.</p></li>
+<li><p>Using subject-level cross-validation to assess classification performance while keeping each participant within a single split.</p></li>
+</ul>
+<h3>Brain Graph Learning with HCP fMRI</h3>
+<p>Ongoing research, Lehigh University</p>
+<ul>
+<li><p>Constructing brain graphs from regional fMRI time series and functional connectivity.</p></li>
+<li><p>Evaluating graph neural network baselines, including Chebyshev graph convolutions and graph attention, for subject-level prediction using resting-state fMRI.</p></li>
+</ul>
+<h3>Self-Supervised Human Mobility Learning</h3>
+<p>June 2020 – June 2022, UESTC</p>
+<ul>
+<li><p>Developed and evaluated self-supervised approaches to next-location prediction and trajectory classification.</p></li>
+<li><p>Explored spatiotemporal data augmentation and contrastive learning to capture patterns in human mobility.</p></li>
+</ul>
+<h2 id="publications">Selected Publications</h2>
+<ol><li><p>Liao, Y., Keung, J., Zhang, J., <strong>Dai, Y.</strong>, &amp; Liu, S. (2025). Evaluate Inference Attacks: Attack and Defense against 2D Semantic Segmentation Models. <em>ACM Transactions on Autonomous and Adaptive Systems</em>.</p></li><li><p>Liao, Y., Zhang, J., Keung, J., Xiao, Y., &amp; <strong>Dai, Y.</strong> (2025). Advancing autonomous driving system testing: Demands, challenges, and future directions. <em>Information and Software Technology</em>, 107859.</p></li><li><p>Cao, C., Zhou, F., <strong>Dai, Y.</strong>, Wang, J., &amp; Zhang, K. A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability. <em>ACM Computing Surveys</em>, 57(2), Article 37, 1–38. Published online in 2024; issue dated February 2025. <a href="https://doi.org/10.1145/3696206">DOI</a>.</p></li><li><p>Liu, L., <strong>Dai, Y.</strong>, Cao, Y., &amp; Zhou, F. (2024). Survey of User Geographic Location Prediction Based on Online Social Network. <em>Journal of Computer Research and Development</em>, 61(2), 385–412.</p></li><li><p>Zhou, F., <strong>Dai, Y.</strong>, Gao, Q., Wang, P., &amp; Zhong, T. (2021). Self-supervised human mobility learning for next-location prediction and trajectory classification. <em>Knowledge-Based Systems</em>, 228, 107214.</p></li><li><p><strong>Dai, Y.</strong>, Yang, Q., Zhang, F., &amp; Zhou, F. (2021). Trajectory prediction model of social network users based on self-supervised learning. <em>Journal of Computer Applications</em>, 41(9), 2545.</p></li></ol>
+<p><a href="https://scholar.google.com/citations?user=PdnyfV0AAAAJ&amp;hl=en">Full publication list on Google Scholar</a>.</p>
+<h2 id="education">Education</h2>
+<h3>Lehigh University</h3>
+<p>Ph.D. in Computer Science, August 2024 – Present</p>
+<p>Department of Computer Science and Engineering. Advisor: Prof. Lifang He.</p>
+<h3>University of Electronic Science and Technology of China</h3>
+<p>Master of Software Engineering, September 2019 – June 2022</p>
+<p>School of Information and Software Engineering. Advisor: Prof. Fan Zhou.</p>
+<h3>Chongqing Normal University</h3>
+<p>Bachelor of Software Engineering, September 2015 – June 2019</p>
+<p>School of Computer and Information Science.</p>
+<h2 id="experience">Experience</h2>
+<h3>Doctoral Research, Lehigh University</h3>
+<p>November 2024 – Present</p>
+<ul>
+<li><p>Conducting research on end-to-end fMRI preprocessing and analysis under the supervision of Prof. Lifang He.</p></li>
+<li><p>Developing model and data-processing components, running comparative experiments, and implementing distributed training workflows for neuroimaging research.</p></li>
+</ul>
+<h3>Research Assistant, City University of Hong Kong</h3>
+<p>August 2022 – February 2024</p>
+<ul>
+<li><p>Contributed to localization and mapping in an autonomous driving system built on Autoware.universe and ROS, using LiDAR data and NDT/SLAM methods.</p></li>
+<li><p>Processed point-cloud maps and generated Lanelet2 semantic maps using Vector Map Builder.</p></li>
+<li><p>Developed a real-time surround-view system with four fisheye cameras using PyQt and OpenCV.</p></li>
+</ul>
+<h3>Teaching Assistant, University of Electronic Science and Technology of China</h3>
+<p>Spring 2020</p>
+<ul>
+<li><p>Supported the course Theory and Technology of Network Security.</p></li>
+</ul>
+<h2>Selected Honors</h2>
+<ul>
+<li><p>Provincial Outstanding Graduate, Education Department of Sichuan, 2022.</p></li>
+<li><p>National Scholarship, Ministry of Education of China, 2021.</p></li>
+<li><p>Excellent Teaching Assistant, UESTC, 2020.</p></li>
+</ul>
 </td></tr></table>
-<h2>About me</h2>
-<p> I used to be a Research Assistant in the Department of Computer Science at the City University of Hong Kong. <br />
-I received the M.S. degree from the University of Electronic Science and Technology of China, in 2022, and the B.S. degree from the Chongqing Normal University in 2019.<br />
-I focus on using AI to solve practical problems. The research areas I have done include <b>Machine Learning</b>, <b>Data Mining</b>, <b>Social Networks</b>, and <b>Autonomous Driving</b>. 
-Also, I am very interested in <b>Human-Computer Interaction</b> and <b>Data Visualization</b>. <br />
-My hobbies are photography, cycling, and running, etc. The reason I enjoy photography is "time will go by, and images will last forever." <br />
-<a href="CV_Yurou.pdf">Here is my CV</a>.</p>
-<h2>Research</h2>
-<p>My research interests include: </p>
-<ul>
-<li><p>Data Mining</p>
-</li>
-<li><p>Human-Computer Interaction</p>
-</li>
-</li>
-<li><p>Causality</p>
-</li>
-</li>
-<li><p>Machine Learning</p>
-</li>
-</ul> 
-<h3>Pre-print</h3>
-<ol>
-<li><p>Cao, C., Zhou, F., <b>Dai, Y.</b>, & Wang, J. (2022). A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability. arXiv preprint arXiv:2212.10888.</p>
-</li>
-</ol>
-<h3>Publications</h3> 
-<ol>
-<li><p>Liu, L., <b>Dai, Y.</b>, Cao Y., & Zhou F. (2023) A Survey of User Geographic Location Prediction Based on Online Social Network. Journal of Computer Research and Development.</p>
-  </li>
-<li><p>Zhou, F., <b>Dai, Y.</b>, Gao, Q., Wang, P., & Zhong, T. (2021). Self-supervised human mobility learning for next-location prediction and trajectory classification. Knowledge-Based Systems, 228, 107214.</p>
-  </li>
-<li><p><b>Dai, Y.</b>, Yang, Q., Zhang, F., & Zhou, F. (2021). Trajectory prediction model of social network users based on self-supervised learning. Journal of Computer Applications, 41(9), 2545.</p>
-  </li>
-</ol>
-<p><a href="https://scholar.google.com/citations?user=PdnyfV0AAAAJ&hl=zh-CN">Full list of publications in Google Scholar</a>.</p>
-<h3>Thesis</h3>
-<p><b>Master</b></p>
-<ul>
-<li><p>Yurou Dai. Human trajectory analysis based on self-supervised learning. 2022. School of Information and Software Engineering, University of Electronic Science and Technology of China (UESTC).</p>
-</li>
-</ul>
-<h3>Patent</h3>
-<ul>
-<li><p>Construction and prediction method of long-tail cascade prevalence prediction model based on decoupling backbone network and regressor.</p>
-</li>
-</ul>
-<h3>Computer Software Copyright</h3>
-<ul>
-<li><p>An intellectual clearance game implemented in C.</p>
-</li>
-</ul>
-  
-<h2>Projects</h2>
-<ol>
-<li><p>Aircraft trajectory data augmentation and prediction. Nov. 2020 – Jun. 2021</p></li>
-<ul>
-<li><p>Obtained aircraft trajectories from ADS-B, preprocessed the trajectory data, and organized and wrote the project documents.</p>
-</li>
-<li><p>Completed experiment and wrote a thesis – 4D trajectory prediction model based on the attentional recurrent network which is published in Telecommunication Engineering.</p>
-</li>
-</ul>
-<li><p>Candidate detection system based on face recognition (Group leader 1/3). Sept. 2018 – Apr. 2019</p></li>
-<ul>
-<li><p>Designed a C/S architecture project, responsible for the realization of the user interface part in the client, used OpenCV library to preprocess face images, and leveraged CNN to realize facial feature extraction and recognition.</p>
-</li>
-<li><p>Implemented of this project is based on Protocol Buffer, ZeroMQ, C++, Qt, QML, and SQL.</p>
-</li>
-</ul>
-<li><p>A file cloud storage system (Group leader 1/3). Oct. 2017 - May. 2018</p></li>
-<ul>
-<li><p>Designed a C/S architecture to implement a cloud storage system, which used C++ to implement server-side logic and QML to implement the user-system interaction interface. </p>
-</li>
-<li><p>Completed the interaction between the client and the server, as well as part of the logic implementation of storage/download.</p>
-</li>
-</ul>
-</ol>
-  
-<h2>Education</h2>
-<p>M.E., University of Electronic Science and Technology of China (UESTC). Sept. 2019 - Jun. 2022.</p>
-<ul>
-<li><p>Main Courses: Graph Theory and its Application, Neural Network and Deep Learning, Algorithm Design and Analysis, Stochastic Process and Queuing Theory, Theory and Technology of Network Security.</p>
-</li>
-</ul>
-<p>B.E., Chongqing Normal University (CQNU). Sept. 2015 - Jun. 2019.</p>
-<ul>
-<li><p>Main Courses: C Language Programming, Data Structures, Discrete Mathematics, Computer Networks, Linear Algebra, Probability and Statistics.</p>
-</li>
-</ul>
-  
-<h2>Work experience</h2>
-<p><b>Research Assistant, FSM Lab, City University of Hong Kong, Aug. 2022 - Feb, 2024.</b></p>
-<p>Automatic driving consists of four modules, namely Perception, Localization, Planning, and Control. I am mainly responsible for the mapping algorithm in the Localization module and the semantic labeling 
-of the point cloud map in autoware.universe, which is based on ROS (Robot Operating System). </p>
-<ul>
-<li><p>Completed one of the mapping and matching methods in the localization module. The point cloud maps and car's position were built using the NDT/SLAM algorithm, which was utilized on the Robot Operating System (ROS) and utilized pure Lidar data as input.</p>
-</li>
-<li><p>Used Vector Map Builder tool to label PCD maps, which was built to generate semantic maps (Lanelet2).</p>
-</li>
-<li><p>Realized a surrounding view system in order to better display the surrounding environment of the vehicle in real-time, which used four Fisheye cameras and mainly utilized PyQt and OpenCV libraries.</p>
-</li>
-</ul>
-
-<h2>Distinction</h2>
-  <table>
-  <tbody>
-    <tr>
-      <td><br>Year</td>
-      <td><br>Award</td>
-      <td><br>Issuer</td>
-    </tr>
-    <tr>
-      <td><br>2022</td>
-      <td><br>Provincial Outstanding Graduate</td>
-      <td><br>Education Department of Sichuan</td>
-    </tr>
-    <tr>
-      <td><br>2021</td>
-      <td><br>National Scholarship</td>
-      <td><br>Ministry of Education of PRC</td>
-    </tr>
-    <tr>
-      <td><br>2021</td>
-      <td><br>First-Prize Scholarship for Master Students</td>
-      <td>UESTC</td>
-    </tr>
-    <tr>
-      <td><br>2021</td>
-      <td><br>Huiding Technology Scholarship</td>
-      <td><br>Goodix</td>
-    </tr>
-    <tr>
-      <td><br>2021</td>
-      <td><br>Excellent Graduate Student (Master's Program)</td>
-      <td>UESTC</td>
-    </tr>
-    <tr>
-      <td><br>2020</td>
-      <td><br>Excellent Teaching Assistant</td>
-      <td>UESTC</td>
-    </tr>
-    <tr>
-      <td><br>2016-2017</td>
-      <td><br>National Encouragement Scholarship x 2</td>
-      <td>CQNU</td>
-    </tr>
-    <tr>
-      <td><br>2016-2017</td>
-      <td><br>Comprehensive First-Prize Scholarship x 3<br></td>
-      <td>CQNU</td>
-    </tr>
-  </tbody>
-  <colgroup>
-    <col style="width: 17%;">
-    <col style="width: 46%;">
-    <col style="width: 36%;">
-  </colgroup>
-</table>
-</td>
-</tr>
-</table>
 </body>
 </html>
