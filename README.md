@@ -7,9 +7,9 @@ Medical AI · Neuroimaging · Deep Learning
 
 ## About
 
-I am a Ph.D. student in Computer Science at Lehigh University, advised by Prof. Lifang He. My research focuses on medical AI for neuroimaging, with an emphasis on learning-based fMRI preprocessing and brain representation learning. I study how image processing and representation choices affect downstream predictive modeling.
+I am a Ph.D. student in Computer Science at Lehigh University, advised by Prof. Lifang He. I am currently working on fMRI preprocessing.
 
-My current work uses functional and structural MRI from datasets including ADHD-200 and ABIDE. Before joining Lehigh, I worked as a Research Assistant at City University of Hong Kong on autonomous driving systems. My earlier research explored self-supervised learning for human mobility and trajectory analysis.
+Before joining Lehigh, I worked as a Research Assistant at City University of Hong Kong on autonomous driving systems. My earlier research explored self-supervised learning for human mobility and trajectory analysis.
 
 I am interested in industry research and applied machine learning internships, particularly in medical imaging, AI for healthcare, and computer vision. I enjoy translating research ideas into practical, reproducible software.
 
@@ -17,21 +17,15 @@ Outside research, I enjoy photography, walking, hiking, and spending time in nat
 
 ## Research
 
-- **Learning-based neuroimaging pipelines.** Integrating brain extraction, motion correction, registration, and downstream analysis into trainable workflows for fMRI.
-
-- **Brain representation learning.** Studying convolutional and graph neural networks for MRI analysis, including representations derived from regional time series and functional connectivity.
-
-- **Evaluation of medical AI.** Examining how preprocessing, anatomical alignment, and brain parcellation affect predictive performance and computational efficiency.
+My current research focuses on fMRI preprocessing.
 
 ## Projects
 
-### End-to-End Learning for fMRI Preprocessing and Analysis
+### fMRI Preprocessing
 
 Ongoing research, Lehigh University
 
-- Developing an end-to-end learning framework that connects fMRI preprocessing with downstream classification on ADHD-200 and ABIDE.
-- Building training and data-processing workflows for 4D fMRI and comparing conventional and learning-based preprocessing approaches, including fMRIPrep, BrainSuite, and DeepPrep.
-- Investigating brain extraction, motion correction, and image registration, and evaluating how preprocessing and atlas-based parcellation affect CNN- and GNN-based classification.
+I am currently working on fMRI preprocessing.
 
 ### Self-Supervised Human Mobility Learning
 
@@ -77,8 +71,7 @@ School of Computer and Information Science.
 
 November 2024 – Present
 
-- Conducting research on end-to-end fMRI preprocessing and analysis under the supervision of Prof. Lifang He.
-- Developing model and data-processing components, running comparative experiments, and implementing distributed training workflows for neuroimaging research.
+Conducting research on fMRI preprocessing under the supervision of Prof. Lifang He.
 
 ### Research Assistant, City University of Hong Kong
 
